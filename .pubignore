@@ -1,0 +1,6 @@
+# Internal planning / tooling — not part of the published package.
+specs/
+.specify/
+.memsearch/
+.kimi-code/
+.DS_Store

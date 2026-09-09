@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "extensions": {
+    "bug": {
+      "version": "1.0.0",
+      "source": "local",
+      "manifest_hash": "sha256:7d168a3b0d409129022c600624d798ec2be4a72528ca8b5ba6e753e62fe5897a",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "kimi": [
+          "speckit.bug.assess",
+          "speckit.bug.issue",
+          "speckit.bug.fetch",
+          "speckit.bug.fix",
+          "speckit.bug.pr",
+          "speckit.bug.test"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-08-23T15:02:53.801688+00:00"
+    },
+    "worktrees": {
+      "version": "1.3.2",
+      "source": "local",
+      "manifest_hash": "sha256:8766715db3156c432fe098e391364f3ec58397cb99c90a6f03b8074d03c028c0",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "kimi": [
+          "speckit.worktrees.specify",
+          "speckit.worktrees.create",
+          "speckit.worktrees.list",
+          "speckit.worktrees.clean"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-08-23T15:03:17.339857+00:00"
+    }
+  }
+}

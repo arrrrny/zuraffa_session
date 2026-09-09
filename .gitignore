@@ -1,0 +1,21 @@
+# Dart/Flutter
+.dart_tool/
+.build/
+pubspec.lock
+*.iml
+.DS_Store
+
+# Build outputs
+build/
+.worktrees/
+
+# Local agent / memory artifacts (not for public repo)
+.memsearch/
+.kimi-code/
+# zfa local state
+.zfa/
+.zfa.json
+build.yaml
+
+# Test coverage output
+coverage/
