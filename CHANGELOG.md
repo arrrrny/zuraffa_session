@@ -1,15 +1,36 @@
 # Changelog
 
+## 1.2.1 - 2026-09-23
+
+### Fixes
+
+- Raise the `zorphy_annotation` floor to `^2.4.1`, the floor `zuraffa` 7.x itself
+  declares. The previous `^2.3.0` floor was unreachable and advertised a version
+  this package could never build against.
+
+### Documentation
+
+- Relabel the 1.2.0 notes `### Compatibility` and correct them: widening
+  `zuraffa` to `^7.0.1` is not breaking for consumers that declare their own
+  `zuraffa` constraint — they keep resolving `zuraffa_session` 1.1.0. 1.2.0 is
+  published and immutable, so the corrected notes first ship in this version.
+- Keep the `zuraffa` floor at `^7.0.1`: 7.0.1 is the release this package is
+  validated against, so 7.0.0 is excluded deliberately.
+- Drop the stale path-dependency status text from `README.md` and update the
+  `PUBLISH.md` runbook's constraint from `^6.0.0` to `^7.0.1`.
+- Remove the duplicate `# Changelog` heading and date the 1.1.0 section.
+
 ## 1.2.0 - 2026-09-23
 
-### Breaking
+### Compatibility
 
 - Widen the `zuraffa` constraint to `^7.0.1` (was `^6.2.2`) so the package
   resolves alongside the zuraffa 7.x ecosystem. Consumers still on zuraffa 6.x
-  must upgrade to 7.x before taking this version. `zikzak_inappwebview ^6.0.2`
-  and its dependents pick this up through their existing `^1.1.0` constraint.
+  keep resolving `zuraffa_session 1.1.0`; upgrade zuraffa to 7.x to take this
+  version. `zikzak_inappwebview ^6.0.2` picks this up through its existing
+  `zuraffa_session: ^1.1.0` constraint.
 
-## 1.1.0
+## 1.1.0 - 2026-09-09
 
 - **Package renamed from `zikzak_session` (0.2.0)** to `zuraffa_session` —
   same portable-session API, new pub.dev identity aligned with the
@@ -20,8 +41,6 @@
 - **Built on the published `zuraffa` framework (^6.2.2)** (was ^6.0.0).
 - Full Zuraffa package template: homepage/repository/issue_tracker/topics
   metadata, MIT LICENSE.
-
-# Changelog
 
 ## 0.2.0 - 2026-08-27
 
