@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.0 - 2026-09-23
+
+### Breaking
+
+- Widen the `zuraffa` constraint to `^7.0.1` (was `^6.2.2`) so the package
+  resolves alongside the zuraffa 7.x ecosystem. Consumers still on zuraffa 6.x
+  must upgrade to 7.x before taking this version. `zikzak_inappwebview ^6.0.2`
+  and its dependents pick this up through their existing `^1.1.0` constraint.
+
 ## 1.1.0
 
 - **Package renamed from `zikzak_session` (0.2.0)** to `zuraffa_session` —
