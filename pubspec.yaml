@@ -3,7 +3,7 @@ description: >-
   Portable browser sessions for the Zuraffa ecosystem: self-contained
   units of webview state (cookies + DOM storage) that persist to a
   relocatable store and reload onto a specific site.
-version: 1.1.0
+version: 1.2.1
 homepage: https://zuraffa.com
 
 environment:
@@ -12,8 +12,8 @@ environment:
 dependencies:
   crypto: ^3.0.6
   json_annotation: ^4.12.0
-  zorphy_annotation: ^2.3.0
-  zuraffa: ^6.2.2
+  zorphy_annotation: ^2.4.1
+  zuraffa: ^7.0.1
 
 dev_dependencies:
   build_runner: ^2.16.0
