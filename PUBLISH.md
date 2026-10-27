@@ -64,3 +64,7 @@ Run `dart pub get` after the swap so `pubspec.lock` re-resolves.
 - No tags existed before `0.2.0`; tag format is the bare semver (e.g. `0.2.0`), no `v` prefix.
 - The publish is irreversible on pub.dev; once `dart pub publish` succeeds the version is permanent.
 - After upload, the new version can take up to ~10 minutes to appear on pub.dev.
+
+---
+
+**Mono version policy:** every package in the zuraffa fleet shares one version number. Bump the whole fleet with `../zuraffa/scripts/update_fleet.sh <version>`. Whenever a version is updated, the install guide in this repo's README.md MUST be updated to that release version in the same change — no old version constraints may linger in README install snippets. Dependency constraints on `zuraffa` itself must move to `^<version>` in the same bump.
