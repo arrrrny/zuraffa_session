@@ -1,3 +1,16 @@
+<!-- ZURAFFA-LAUNCH-PROMO (valid until Dec 1, 2026) -->
+## 🦒 [Zuraffa Browser](https://zuraffa.com) — now live
+
+<div align="center">
+  <a href="https://zuraffa.com"><img src="https://zuraffa.com/img/zuraffa-browser-home.jpg" alt="Zuraffa Browser — 10 Browsers. One window." width="800"></a>
+</div>
+
+**[Zuraffa Browser](https://zuraffa.com)** — the multi-tasking browser for AI agents & humans — is live on the [Mac App Store](https://apps.apple.com/app/id6811352058).
+
+🎁 **Launch offer: 6 months free with code `ZURAFFA`** — no credit card, no subscription, no payment. Redeem in-app until **Dec 1, 2026**.
+
+---
+
 # zuraffa_session
 
 Portable browser sessions for the Zuraffa ecosystem — self-contained units of webview state (cookies + DOM storage) that persist to a relocatable store and reload onto a specific site.
@@ -83,4 +96,4 @@ canonicalized.
 
 ## Status
 
-Standalone package under active development (spec `specs/001-portable-browser-sessions`). Depends on the hosted `zuraffa: ^7.3.6` constraint; consumers that declare their own `zuraffa` constraint keep resolving `zuraffa_session 7.3.6`.
+Standalone package under active development (spec `specs/001-portable-browser-sessions`). Depends on the hosted `zuraffa: ^7.3.6` constraint; consumers that declare their own `zuraffa` constraint keep resolving `zuraffa_session 7.3.8`.
