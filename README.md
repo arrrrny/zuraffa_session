@@ -96,4 +96,4 @@ canonicalized.
 
 ## Status
 
-Standalone package under active development (spec `specs/001-portable-browser-sessions`). Depends on the hosted `zuraffa: ^7.5.0` constraint; consumers that declare their own `zuraffa` constraint keep resolving `zuraffa_session 7.5.0`.
+Standalone package under active development (spec `specs/001-portable-browser-sessions`). Depends on the hosted `zuraffa: ^7.6.0` constraint; consumers that declare their own `zuraffa` constraint keep resolving `zuraffa_session 7.6.0`.

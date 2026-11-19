@@ -26,7 +26,7 @@ Map<String, dynamic> _$CookieEntryToJson(CookieEntry instance) =>
       'value': instance.value,
       'domain': instance.domain,
       'path': instance.path,
-      'expiresAt': ?instance.expiresAt,
+      'expiresAt': instance.expiresAt,
       'secure': instance.secure,
       'httpOnly': instance.httpOnly,
     };
