@@ -1,8 +1,5 @@
 name: zuraffa_session
-description: >-
-  Portable browser sessions for the Zuraffa ecosystem: self-contained
-  units of webview state (cookies + DOM storage) that persist to a
-  relocatable store and reload onto a specific site.
+description: Secure, persistent session management for the Zuraffa ecosystem with encrypted local storage and auth-ready lifecycle hooks.
 version: 7.6.1
 homepage: https://zuraffa.com
 
